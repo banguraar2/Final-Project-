@@ -11,7 +11,7 @@ st.set_page_config(
 # Loading Data with efficiency (prevents streamlit from rereading data)
 @st.cache_data
 def load_data():
-    return pd.read_csv("fproject_earnings_data.csv")
+    return pd.read_csv("project_earnings_data.csv")
 df = load_data()
 # Page customization
 st.markdown(
